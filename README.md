@@ -283,3 +283,7 @@ foreach(var item in m_queStrLogs){ //遍历
 	* 参考UniRx、QFramework，引入与蛇体初始化、设置对象大小等封装
 	* 参考QFramework 区分测试、研发阶段，分角色
 	* 【待定】ijk播放器、hdmi-in放到Framework OR plugin。
+
+##鸣谢
+
+>中核集团超高级网络专家--噶抓同志
