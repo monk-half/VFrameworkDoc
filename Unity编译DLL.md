@@ -14,3 +14,6 @@ Scripting Runtime Version ---> Assembly Definition ---> UGlue.csproj: <TargetFra
 
 ## DLL警告
 the plugin references at least one UnityEngine module：貌似是重复引用同一个模块的问题，去除重复引用试试
+
+## API Compatibility Level 
+影响编译完的DLL的运行情况，选择2.0，则基本支持所有的unity项目，选择4.0，会调用到一些4.0的内容，在一些 runtime version 3.5的项目里可能出错。
